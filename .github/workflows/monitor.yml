@@ -30,7 +30,8 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull --rebase  # 🔥 Обновляем локальную копию, чтобы избежать конфликта
+          git pull --rebase --autostash origin main  # 🔥 Исправленный `git pull`
           git add monitoring/site_status.log
           git commit -m "🔄 Обновление статуса сайтов" || echo "Нет изменений для коммита"
-          git push
+          git push origin main
+
