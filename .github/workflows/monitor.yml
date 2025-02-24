@@ -26,10 +26,11 @@ jobs:
           CHAT_ID: ${{ secrets.CHAT_ID }}
         run: monitoring/check_sites.sh
 
-      - name: 📂 Сохраняем обновлённый статус сайтов
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "🔄 Обновление статуса сайтов"
-          branch: main
-          file_pattern: monitoring/site_status.log
-          pull_strategy: "NO-FETCH"  # 🔥 Добавляем, чтобы избежать ошибки `non-fast-forward`
+      - name: 📂 Подготавливаем изменения перед коммитом
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git pull --rebase  # 🔥 Обновляем локальную копию, чтобы избежать конфликта
+          git add monitoring/site_status.log
+          git commit -m "🔄 Обновление статуса сайтов" || echo "Нет изменений для коммита"
+          git push
