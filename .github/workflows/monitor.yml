@@ -17,6 +17,9 @@ jobs:
         run: chmod +x monitoring/check_sites.sh
 
       - name: 🚀 Запускаем мониторинг
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
         run: monitoring/check_sites.sh
 
       - name: 📂 Сохраняем обновлённый статус сайтов

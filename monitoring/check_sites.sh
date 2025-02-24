@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # === 🔹 Настройки ===
-TELEGRAM_BOT_TOKEN="${{ secrets.TELEGRAM_BOT_TOKEN }}"
-CHAT_ID="${{ secrets.CHAT_ID }}"
+TELEGRAM_BOT_TOKEN="$TELEGRAM_BOT_TOKEN"
+CHAT_ID="$CHAT_ID"
 LOG_FILE="monitoring/site_monitor.log"
 STATUS_FILE="monitoring/site_status.log"
 IP_ADDRESS=$(curl -s4 ifconfig.me)  # Определяем IP-адрес GitHub Actions runner
