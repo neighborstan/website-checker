@@ -32,3 +32,4 @@ jobs:
           commit_message: "🔄 Обновление статуса сайтов"
           branch: main
           file_pattern: monitoring/site_status.log
+          pull_strategy: "NO-FETCH"  # 🔥 Добавляем, чтобы избежать ошибки `non-fast-forward`
