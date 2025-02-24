@@ -8,10 +8,14 @@ on:
 jobs:
   monitor:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Разрешаем Actions делать git push
 
     steps:
       - name: 🛠️ Клонируем репозиторий
         uses: actions/checkout@v3
+        with:
+          persist-credentials: true  # Сохраняем авторизацию для git push
 
       - name: 🔑 Настраиваем права на скрипт
         run: chmod +x monitoring/check_sites.sh
