@@ -16,6 +16,7 @@ jobs:
     permissions:
       contents: write  # Разрешаем Actions делать git push
       actions: write  # Права на управление actions
+      workflows: write
 
     steps:
       - name: 🛠️ Клонируем репозиторий
@@ -44,9 +45,10 @@ jobs:
       - name: 🧹 Очистка старых запусков
         uses: Mattraks/delete-workflow-runs@v2
         with:
-          token: ${{ github.token }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           repository: ${{ github.repository }}
           retain_days: 1        # хранить запуски за последний день
           keep_minimum_runs: 10 # всегда хранить максимум 10 последних запусков
           keep_latest_runs: 10  # максимальное количество запусков
+          delete_workflow_pattern: monitor.yml
 
