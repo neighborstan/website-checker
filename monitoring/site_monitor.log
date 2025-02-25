@@ -1,26 +1,3 @@
-Tue Feb 25 17:59:04 UTC 2025 - Код ответа от https://stels-rf.ru (185.105.225.6): 200
-Tue Feb 25 17:59:04 UTC 2025 - ✅ Сайт stels-rf.ru доступен (код: 200)
-Tue Feb 25 17:59:04 UTC 2025 - 🔍 Проверка сайта: https://resanta24.ru
-Tue Feb 25 17:59:06 UTC 2025 - Код ответа от https://resanta24.ru (185.105.225.6): 200
-Tue Feb 25 17:59:06 UTC 2025 - ✅ Сайт resanta24.ru доступен (код: 200)
-Tue Feb 25 17:59:06 UTC 2025 - 🔍 Проверка сайта: https://hrobots.ru
-Tue Feb 25 17:59:07 UTC 2025 - Код ответа от https://hrobots.ru (185.105.225.6): 200
-Tue Feb 25 17:59:07 UTC 2025 - ✅ Сайт hrobots.ru доступен (код: 200)
-Tue Feb 25 17:59:07 UTC 2025 - ✅ Проверка завершена.
-=== Debug Info ===
-Script started at: Tue Feb 25 18:10:18 UTC 2025
-Working directory: /home/runner/work/website-checker/website-checker
-TELEGRAM_BOT_TOKEN present: Yes
-CHAT_ID present: Yes
-=================
-Tue Feb 25 18:10:18 UTC 2025 - 🔄 Запуск проверки сайтов... (Сервер IP GitHub Actions: 20.25.192.49)
-Tue Feb 25 18:10:18 UTC 2025 - 🔍 Проверка сайта: https://huter-gmbh.ru
-Tue Feb 25 18:10:20 UTC 2025 - Код ответа от https://huter-gmbh.ru (185.105.225.6): 200
-Tue Feb 25 18:10:20 UTC 2025 - ✅ Сайт huter-gmbh.ru доступен (код: 200)
-Tue Feb 25 18:10:20 UTC 2025 - 🔍 Проверка сайта: https://ecoflow-russia.com
-Tue Feb 25 18:10:22 UTC 2025 - Код ответа от https://ecoflow-russia.com (185.105.225.6): 200
-Tue Feb 25 18:10:22 UTC 2025 - ✅ Сайт ecoflow-russia.com доступен (код: 200)
-Tue Feb 25 18:10:22 UTC 2025 - 🔍 Проверка сайта: https://stels-rf.ru
 Tue Feb 25 18:10:23 UTC 2025 - Код ответа от https://stels-rf.ru (185.105.225.6): 200
 Tue Feb 25 18:10:23 UTC 2025 - ✅ Сайт stels-rf.ru доступен (код: 200)
 Tue Feb 25 18:10:23 UTC 2025 - 🔍 Проверка сайта: https://resanta24.ru
@@ -99,3 +76,26 @@ Tue Feb 25 18:47:34 UTC 2025 - 🔍 Проверка сайта: https://hrobots
 Tue Feb 25 18:47:35 UTC 2025 - Код ответа от https://hrobots.ru (185.105.225.6): 200
 Tue Feb 25 18:47:35 UTC 2025 - ✅ Сайт hrobots.ru доступен (код: 200)
 Tue Feb 25 18:47:35 UTC 2025 - ✅ Проверка завершена.
+=== Debug Info ===
+Script started at: Tue Feb 25 18:55:13 UTC 2025
+Working directory: /home/runner/work/website-checker/website-checker
+TELEGRAM_BOT_TOKEN present: Yes
+CHAT_ID present: Yes
+=================
+Tue Feb 25 18:55:13 UTC 2025 - 🔄 Запуск проверки сайтов... (Сервер IP GitHub Actions: 52.234.38.229)
+Tue Feb 25 18:55:13 UTC 2025 - 🔍 Проверка сайта: https://huter-gmbh.ru
+Tue Feb 25 18:55:15 UTC 2025 - Код ответа от https://huter-gmbh.ru (185.105.225.6): 200
+Tue Feb 25 18:55:15 UTC 2025 - ✅ Сайт huter-gmbh.ru доступен (код: 200)
+Tue Feb 25 18:55:15 UTC 2025 - 🔍 Проверка сайта: https://ecoflow-russia.com
+Tue Feb 25 18:55:17 UTC 2025 - Код ответа от https://ecoflow-russia.com (185.105.225.6): 200
+Tue Feb 25 18:55:17 UTC 2025 - ✅ Сайт ecoflow-russia.com доступен (код: 200)
+Tue Feb 25 18:55:17 UTC 2025 - 🔍 Проверка сайта: https://stels-rf.ru
+Tue Feb 25 18:55:19 UTC 2025 - Код ответа от https://stels-rf.ru (185.105.225.6): 200
+Tue Feb 25 18:55:19 UTC 2025 - ✅ Сайт stels-rf.ru доступен (код: 200)
+Tue Feb 25 18:55:19 UTC 2025 - 🔍 Проверка сайта: https://resanta24.ru
+Tue Feb 25 18:55:21 UTC 2025 - Код ответа от https://resanta24.ru (185.105.225.6): 200
+Tue Feb 25 18:55:21 UTC 2025 - ✅ Сайт resanta24.ru доступен (код: 200)
+Tue Feb 25 18:55:21 UTC 2025 - 🔍 Проверка сайта: https://hrobots.ru
+Tue Feb 25 18:55:23 UTC 2025 - Код ответа от https://hrobots.ru (185.105.225.6): 200
+Tue Feb 25 18:55:23 UTC 2025 - ✅ Сайт hrobots.ru доступен (код: 200)
+Tue Feb 25 18:55:23 UTC 2025 - ✅ Проверка завершена.
