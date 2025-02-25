@@ -41,12 +41,28 @@ jobs:
           git commit -m "🔄 Обновление статуса сайтов и логов" || echo "Нет изменений для коммита"
           git push origin main
 
-      - name: 🧹 Очистка старых запусков
-        uses: Mattraks/delete-workflow-runs@v2
-        with:
-          token: ${{ secrets.ACTIONS_DELETE_TOKEN }}
-          repository: ${{ github.repository }}
-#          retain_days: 1        # хранить запуски за последний день
-          keep_minimum_runs: 10 # всегда хранить максимум 10 последних запусков
-          delete_run_by_conclusion_pattern: "completed"  # удалять только завершенные запуски
+      - name: 🧹 Удаление старых запусков, оставляя 10 последних
+        run: |
+          TOKEN=${{ secrets.ACTIONS_DELETE_TOKEN }}
+          REPO=${{ github.repository }}
+          
+          # Получаем список ID всех завершённых запусков (completed), кроме 10 последних
+          RUN_IDS=$(curl -s -H "Authorization: token $TOKEN" \
+            "https://api.github.com/repos/$REPO/actions/runs?per_page=100" | \
+            jq -r '.workflow_runs | map(select(.status == "completed")) | .[:-10] | .[].id')
+          
+          # Проверяем, есть ли что удалять
+          if [ -z "$RUN_IDS" ]; then
+            echo "✅ Нет старых запусков для удаления."
+            exit 0
+          fi
+          
+          # Удаляем старые запуски
+          for ID in $RUN_IDS; do
+            echo "🚮 Удаляем запуск $ID..."
+            curl -X DELETE -H "Authorization: token $TOKEN" \
+              "https://api.github.com/repos/$REPO/actions/runs/$ID"
+          done
+          
+          echo "✅ Все старые запуски удалены."
 
