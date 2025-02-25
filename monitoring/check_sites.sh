@@ -1,11 +1,39 @@
 #!/bin/bash
 
 # === 🔹 Настройки ===
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+PROJECT_DIR="$( cd "$SCRIPT_DIR/.." && pwd )"
+
 TELEGRAM_BOT_TOKEN="$TELEGRAM_BOT_TOKEN"
 CHAT_ID="$CHAT_ID"
 LOG_FILE="monitoring/site_monitor.log"
 STATUS_FILE="monitoring/site_status.log"
 IP_ADDRESS=$(curl -s4 ifconfig.me)  # Определяем IP-адрес GitHub Actions runner
+
+# === 📝 Инициализация логов ===
+# Создаём директорию для логов, если её нет
+mkdir -p "$(dirname "$LOG_FILE")"
+mkdir -p "$(dirname "$STATUS_FILE")"
+
+# Создаём лог-файл, если его нет
+if [ ! -f "$LOG_FILE" ]; then
+    touch "$LOG_FILE"
+    echo "$(date) - 🆕 Создан файл логов: $LOG_FILE" >> "$LOG_FILE"
+fi
+
+# Создаём файл статусов, если его нет
+if [ ! -f "$STATUS_FILE" ]; then
+    touch "$STATUS_FILE"
+    echo "$(date) - 🆕 Создан файл статусов: $STATUS_FILE" >> "$LOG_FILE"
+fi
+
+# === 🔍 Отладочная информация ===
+echo "=== Debug Info ===" >> "$LOG_FILE"
+echo "Script started at: $(date)" >> "$LOG_FILE"
+echo "Working directory: $(pwd)" >> "$LOG_FILE"
+echo "TELEGRAM_BOT_TOKEN present: $([[ -n $TELEGRAM_BOT_TOKEN ]] && echo 'Yes' || echo 'No')" >> "$LOG_FILE"
+echo "CHAT_ID present: $([[ -n $CHAT_ID ]] && echo 'Yes' || echo 'No')" >> "$LOG_FILE"
+echo "=================" >> "$LOG_FILE"
 
 # В этом массиве указываем домены БЕЗ https://
 SITES=(

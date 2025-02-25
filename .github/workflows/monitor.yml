@@ -5,11 +5,17 @@ on:
     - cron: "*/5 * * * *"  # Запуск каждые 5 минут
   workflow_dispatch:       # Возможность ручного запуска
 
+# Настройки для очистки старых запусков
+concurrency:
+  group: monitor
+  cancel-in-progress: false  # не отменять текущие запуски при старте нового
+
 jobs:
   monitor:
     runs-on: ubuntu-latest
     permissions:
       contents: write  # Разрешаем Actions делать git push
+      actions: write  # Права на управление actions
 
     steps:
       - name: 🛠️ Клонируем репозиторий
@@ -30,8 +36,16 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git pull --rebase --autostash origin main  # 🔥 Исправленный `git pull`
-          git add monitoring/site_status.log
-          git commit -m "🔄 Обновление статуса сайтов" || echo "Нет изменений для коммита"
+          git pull --rebase --autostash origin main
+          git add monitoring/site_status.log monitoring/site_monitor.log  # Добавляем оба файла
+          git commit -m "🔄 Обновление статуса сайтов и логов" || echo "Нет изменений для коммита"
           git push origin main
+
+      - name: 🧹 Очистка старых запусков
+        uses: Mattraks/delete-workflow-runs@v2
+        with:
+          token: ${{ github.token }}
+          repository: ${{ github.repository }}
+          retain_days: 7        # хранить запуски за последние 7 дней
+          keep_minimum_runs: 10 # всегда хранить минимум 10 последних запусков
 
