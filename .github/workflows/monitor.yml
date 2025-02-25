@@ -44,7 +44,7 @@ jobs:
       - name: 🧹 Очистка старых запусков
         uses: Mattraks/delete-workflow-runs@v2
         with:
-          token: ${{ github.token }}
+          token: ${{ secrets.ACTIONS_DELETE_TOKEN }}
           repository: ${{ github.repository }}
           retain_days: 1        # хранить запуски за последний день
           keep_minimum_runs: 10 # всегда хранить максимум 10 последних запусков
