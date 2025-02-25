@@ -46,6 +46,7 @@ jobs:
         with:
           token: ${{ github.token }}
           repository: ${{ github.repository }}
-          retain_days: 7        # хранить запуски за последние 7 дней
-          keep_minimum_runs: 10 # всегда хранить минимум 10 последних запусков
+          retain_days: 1        # хранить запуски за последний день
+          keep_minimum_runs: 10 # всегда хранить максимум 10 последних запусков
+          keep_latest_runs: 10  # максимальное количество запусков
 
