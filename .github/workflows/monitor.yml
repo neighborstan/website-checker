@@ -46,7 +46,7 @@ jobs:
         with:
           token: ${{ secrets.ACTIONS_DELETE_TOKEN }}
           repository: ${{ github.repository }}
-          retain_days: 1        # хранить запуски за последний день
+#          retain_days: 1        # хранить запуски за последний день
           keep_minimum_runs: 10 # всегда хранить максимум 10 последних запусков
-          keep_latest_runs: 10  # максимальное количество запусков
+          delete_run_by_conclusion_pattern: "completed"  # удалять только завершенные запуски
 
