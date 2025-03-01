@@ -33,16 +33,11 @@ echo "Script started at: $(date)" >> "$LOG_FILE"
 echo "Working directory: $(pwd)" >> "$LOG_FILE"
 echo "TELEGRAM_BOT_TOKEN present: $([[ -n $TELEGRAM_BOT_TOKEN ]] && echo 'Yes' || echo 'No')" >> "$LOG_FILE"
 echo "CHAT_ID present: $([[ -n $CHAT_ID ]] && echo 'Yes' || echo 'No')" >> "$LOG_FILE"
+echo "SITES present: $([[ -n $SITES ]] && echo 'Yes' || echo 'No')" >> "$LOG_FILE"
 echo "=================" >> "$LOG_FILE"
 
-# В этом массиве указываем домены БЕЗ https://
-SITES=(
-    "huter-gmbh.ru"
-    "ecoflow-russia.com"
-    "stels-rf.ru"
-    "resanta24.ru"
-    "hrobots.ru"
-)
+# Преобразуем строку с сайтами в массив
+IFS=' ' read -r -a SITES_ARRAY <<< "$SITES"
 
 # === 📌 Проверяем, существует ли STATUS_FILE, если нет — создаём ===
 if [ ! -f "$STATUS_FILE" ]; then
@@ -52,7 +47,7 @@ fi
 
 echo "$(date) - 🔄 Запуск проверки сайтов... (Сервер IP GitHub Actions: $IP_ADDRESS)" >> "$LOG_FILE"
 
-for DOMAIN in "${SITES[@]}"; do
+for DOMAIN in "${SITES_ARRAY[@]}"; do
     # Формируем полный URL c https://
     FULL_URL="https://${DOMAIN}"
 

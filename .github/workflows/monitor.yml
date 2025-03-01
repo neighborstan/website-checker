@@ -30,6 +30,7 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
+          SITES: ${{ vars.SITES }}
         run: monitoring/check_sites.sh
 
       - name: 📂 Подготавливаем изменения перед коммитом
