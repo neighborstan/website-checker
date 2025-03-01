@@ -1,8 +1,9 @@
 name: Server Monitor
 
 on:
-  schedule:
-    - cron: "*/5 * * * *"  # Запуск каждые 5 минут
+  # Удаляем schedule, так как теперь запуск будет через Google Apps Script
+  # schedule:
+  #   - cron: "*/5 * * * *"  # Запуск каждые 5 минут
   workflow_dispatch:       # Возможность ручного запуска
 
 # Настройки для очистки старых запусков
