@@ -1,26 +1,3 @@
-Fri Apr  4 21:00:55 UTC 2025 - ✅ Сайт resanta24.ru доступен (код: 200)
-Fri Apr  4 21:00:55 UTC 2025 - 🔍 Проверка сайта: https://hrobots.ru
-Fri Apr  4 21:03:11 UTC 2025 - Код ответа от https://hrobots.ru (185.105.225.6): 502
-Fri Apr  4 21:03:11 UTC 2025 - ❌ Сайт hrobots.ru упал! Отправляем уведомление...
-Fri Apr  4 21:03:12 UTC 2025 - 📤 Ответ от Telegram API: {"ok":true,"result":{"message_id":178,"sender_chat":{"id":-1002312916406,"title":"(iMetro) Site Monitor","type":"channel"},"chat":{"id":-1002312916406,"title":"(iMetro) Site Monitor","type":"channel"},"date":1743800592,"text":"\u26a0\ufe0f \u0412\u043d\u0438\u043c\u0430\u043d\u0438\u0435!\n\u274c \u0421\u0430\u0439\u0442 hrobots.ru \u043d\u0435\u0434\u043e\u0441\u0442\u0443\u043f\u0435\u043d (\u043a\u043e\u0434: 502)\n\ud83c\udf0d IP \u0441\u0435\u0440\u0432\u0435\u0440\u0430: 185.105.225.6\n\ud83d\ude80 \u041c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433 \u0437\u0430\u043f\u0443\u0449\u0435\u043d \u0441: 20.161.77.177","entities":[{"offset":3,"length":9,"type":"bold"},{"offset":20,"length":10,"type":"text_link","url":"https://hrobots.ru/"},{"offset":56,"length":11,"type":"bold"},{"offset":68,"length":13,"type":"code"},{"offset":85,"length":21,"type":"bold"},{"offset":107,"length":13,"type":"code"}],"link_preview_options":{"is_disabled":true}}}
-Fri Apr  4 21:03:12 UTC 2025 - ✅ Проверка завершена.
-<<<<<<< Updated upstream
-=======
-Fri Apr  4 21:03:20 UTC 2025 - 🔄 Запуск проверки сайтов... (Сервер IP GitHub Actions: 172.214.45.231)
-Fri Apr  4 21:03:20 UTC 2025 - 🔍 Проверка сайта: https://huter-gmbh.ru
-Fri Apr  4 21:05:36 UTC 2025 - Код ответа от https://huter-gmbh.ru (185.105.225.6): 504
-Fri Apr  4 21:05:36 UTC 2025 - ❌ Сайт huter-gmbh.ru упал! Отправляем уведомление...
-Fri Apr  4 21:05:36 UTC 2025 - 📤 Ответ от Telegram API: {"ok":true,"result":{"message_id":179,"sender_chat":{"id":-1002312916406,"title":"(iMetro) Site Monitor","type":"channel"},"chat":{"id":-1002312916406,"title":"(iMetro) Site Monitor","type":"channel"},"date":1743800736,"text":"\u26a0\ufe0f \u0412\u043d\u0438\u043c\u0430\u043d\u0438\u0435!\n\u274c \u0421\u0430\u0439\u0442 huter-gmbh.ru \u043d\u0435\u0434\u043e\u0441\u0442\u0443\u043f\u0435\u043d (\u043a\u043e\u0434: 504)\n\ud83c\udf0d IP \u0441\u0435\u0440\u0432\u0435\u0440\u0430: 185.105.225.6\n\ud83d\ude80 \u041c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433 \u0437\u0430\u043f\u0443\u0449\u0435\u043d \u0441: 172.214.45.231","entities":[{"offset":3,"length":9,"type":"bold"},{"offset":20,"length":13,"type":"text_link","url":"https://huter-gmbh.ru/"},{"offset":59,"length":11,"type":"bold"},{"offset":71,"length":13,"type":"code"},{"offset":88,"length":21,"type":"bold"},{"offset":110,"length":14,"type":"code"}],"link_preview_options":{"is_disabled":true}}}
-Fri Apr  4 21:05:36 UTC 2025 - 🔍 Проверка сайта: https://ecoflow-russia.com
-Fri Apr  4 21:06:18 UTC 2025 - Код ответа от https://ecoflow-russia.com (185.105.225.6): 200
-Fri Apr  4 21:06:18 UTC 2025 - ✅ Сайт ecoflow-russia.com доступен (код: 200)
-Fri Apr  4 21:06:18 UTC 2025 - 🔍 Проверка сайта: https://stels-rf.ru
-Fri Apr  4 21:06:18 UTC 2025 - Код ответа от https://stels-rf.ru (185.105.225.6): 000
-Fri Apr  4 21:06:18 UTC 2025 - 🔍 Проверка сайта: https://resanta24.ru
-Fri Apr  4 21:06:23 UTC 2025 - Код ответа от https://resanta24.ru (185.105.225.6): 200
-Fri Apr  4 21:06:23 UTC 2025 - ✅ Сайт resanta24.ru доступен (код: 200)
-Fri Apr  4 21:06:23 UTC 2025 - 🔍 Проверка сайта: https://hrobots.ru
-Fri Apr  4 21:06:26 UTC 2025 - Код ответа от https://hrobots.ru (185.105.225.6): 200
 Fri Apr  4 21:06:26 UTC 2025 - ✅ Сайт hrobots.ru доступен (код: 200)
 Fri Apr  4 21:06:26 UTC 2025 - ✅ Проверка завершена.
 >>>>>>> Stashed changes
@@ -99,3 +76,26 @@ Fri Apr  4 21:16:32 UTC 2025 - 🔍 Проверка сайта: https://hrobots
 Fri Apr  4 21:16:33 UTC 2025 - Код ответа от https://hrobots.ru (185.105.225.6): 200
 Fri Apr  4 21:16:33 UTC 2025 - ✅ Сайт hrobots.ru доступен (код: 200)
 Fri Apr  4 21:16:33 UTC 2025 - ✅ Проверка завершена.
+=== Debug Info ===
+Script started at: Fri Apr  4 21:21:25 UTC 2025
+Working directory: /home/runner/work/website-checker/website-checker
+TELEGRAM_BOT_TOKEN present: Yes
+CHAT_ID present: Yes
+SITES present: Yes
+=================
+Fri Apr  4 21:21:25 UTC 2025 - 🔄 Запуск проверки сайтов... (Сервер IP GitHub Actions: 20.25.192.78)
+Fri Apr  4 21:21:25 UTC 2025 - 🔍 Проверка сайта: https://huter-gmbh.ru
+Fri Apr  4 21:21:27 UTC 2025 - Код ответа от https://huter-gmbh.ru (185.105.225.6): 200
+Fri Apr  4 21:21:27 UTC 2025 - ✅ Сайт huter-gmbh.ru доступен (код: 200)
+Fri Apr  4 21:21:27 UTC 2025 - 🔍 Проверка сайта: https://ecoflow-russia.com
+Fri Apr  4 21:21:29 UTC 2025 - Код ответа от https://ecoflow-russia.com (185.105.225.6): 200
+Fri Apr  4 21:21:29 UTC 2025 - ✅ Сайт ecoflow-russia.com доступен (код: 200)
+Fri Apr  4 21:21:29 UTC 2025 - 🔍 Проверка сайта: https://stels-rf.ru
+Fri Apr  4 21:21:30 UTC 2025 - Код ответа от https://stels-rf.ru (185.105.225.6): 000
+Fri Apr  4 21:21:30 UTC 2025 - 🔍 Проверка сайта: https://resanta24.ru
+Fri Apr  4 21:21:31 UTC 2025 - Код ответа от https://resanta24.ru (185.105.225.6): 200
+Fri Apr  4 21:21:31 UTC 2025 - ✅ Сайт resanta24.ru доступен (код: 200)
+Fri Apr  4 21:21:31 UTC 2025 - 🔍 Проверка сайта: https://hrobots.ru
+Fri Apr  4 21:21:33 UTC 2025 - Код ответа от https://hrobots.ru (185.105.225.6): 200
+Fri Apr  4 21:21:33 UTC 2025 - ✅ Сайт hrobots.ru доступен (код: 200)
+Fri Apr  4 21:21:33 UTC 2025 - ✅ Проверка завершена.
