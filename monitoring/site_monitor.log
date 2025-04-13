@@ -1,6 +1,7 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 Sun Apr 13 07:48:39 UTC 2025 - ❌ Сайт resanta24.ru упал! Отправляем уведомление...
 Sun Apr 13 07:48:39 UTC 2025 - 📤 Ответ от Telegram API: {"ok":true,"result":{"message_id":186,"sender_chat":{"id":-1002312916406,"title":"(iMetro) Site Monitor","type":"channel"},"chat":{"id":-1002312916406,"title":"(iMetro) Site Monitor","type":"channel"},"date":1744530519,"text":"\u26a0\ufe0f \u0412\u043d\u0438\u043c\u0430\u043d\u0438\u0435!\n\u274c \u0421\u0430\u0439\u0442 resanta24.ru \u043d\u0435\u0434\u043e\u0441\u0442\u0443\u043f\u0435\u043d (\u043a\u043e\u0434: 504)\n\ud83c\udf0d IP \u0441\u0435\u0440\u0432\u0435\u0440\u0430: 185.105.225.6\n\ud83d\ude80 \u041c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433 \u0437\u0430\u043f\u0443\u0449\u0435\u043d \u0441: 20.169.15.19","entities":[{"offset":3,"length":9,"type":"bold"},{"offset":20,"length":12,"type":"text_link","url":"https://resanta24.ru/"},{"offset":58,"length":11,"type":"bold"},{"offset":70,"length":13,"type":"code"},{"offset":87,"length":21,"type":"bold"},{"offset":109,"length":12,"type":"code"}],"link_preview_options":{"is_disabled":true}}}
 Sun Apr 13 07:48:39 UTC 2025 - 🔍 Проверка сайта: https://hrobots.ru
@@ -85,6 +86,8 @@ Sun Apr 13 07:57:25 UTC 2025 - 📤 Ответ от Telegram API: {"ok":true,"re
 Sun Apr 13 07:57:25 UTC 2025 - 🔍 Проверка сайта: https://hrobots.ru
 Sun Apr 13 07:57:26 UTC 2025 - Код ответа от https://hrobots.ru (185.105.225.6): 000
 Sun Apr 13 07:57:26 UTC 2025 - ❌ Сайт hrobots.ru упал! Отправляем уведомление...
+=======
+>>>>>>> Stashed changes
 Sun Apr 13 07:57:26 UTC 2025 - 📤 Ответ от Telegram API: {"ok":true,"result":{"message_id":193,"sender_chat":{"id":-1002312916406,"title":"(iMetro) Site Monitor","type":"channel"},"chat":{"id":-1002312916406,"title":"(iMetro) Site Monitor","type":"channel"},"date":1744531046,"text":"\u26a0\ufe0f \u0412\u043d\u0438\u043c\u0430\u043d\u0438\u0435!\n\u274c \u0421\u0430\u0439\u0442 hrobots.ru \u043d\u0435\u0434\u043e\u0441\u0442\u0443\u043f\u0435\u043d (\u043a\u043e\u0434: 000)\n\ud83c\udf0d IP \u0441\u0435\u0440\u0432\u0435\u0440\u0430: 185.105.225.6\n\ud83d\ude80 \u041c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433 \u0437\u0430\u043f\u0443\u0449\u0435\u043d \u0441: 20.42.48.72","entities":[{"offset":3,"length":9,"type":"bold"},{"offset":20,"length":10,"type":"text_link","url":"https://hrobots.ru/"},{"offset":56,"length":11,"type":"bold"},{"offset":68,"length":13,"type":"code"},{"offset":85,"length":21,"type":"bold"},{"offset":107,"length":11,"type":"code"}],"link_preview_options":{"is_disabled":true}}}
 Sun Apr 13 07:57:26 UTC 2025 - ✅ Проверка завершена.
 === Debug Info ===
@@ -160,6 +163,7 @@ Sun Apr 13 08:22:34 UTC 2025 - 🔍 Проверка сайта: https://hrobots
 Sun Apr 13 08:24:37 UTC 2025 - Код ответа от https://hrobots.ru (185.105.225.6): 504
 Sun Apr 13 08:24:37 UTC 2025 - ✅ Проверка завершена.
 >>>>>>> Stashed changes
+<<<<<<< Updated upstream
 =======
 Sun Apr 13 08:24:49 UTC 2025 - 🔄 Запуск проверки сайтов... (Сервер IP GitHub Actions: 52.234.38.28)
 Sun Apr 13 08:24:49 UTC 2025 - 🔍 Проверка сайта: https://huter-gmbh.ru
@@ -183,4 +187,38 @@ Sun Apr 13 08:28:31 UTC 2025 - ✅ Сайт hrobots.ru восстановилс�
 Sun Apr 13 08:28:32 UTC 2025 - 📤 Ответ от Telegram API: {"ok":true,"result":{"message_id":199,"sender_chat":{"id":-1002312916406,"title":"(iMetro) Site Monitor","type":"channel"},"chat":{"id":-1002312916406,"title":"(iMetro) Site Monitor","type":"channel"},"date":1744532912,"text":"\u2705 \u0412\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u043e!\n\ud83c\udf89 \u0421\u0430\u0439\u0442 hrobots.ru \u0441\u043d\u043e\u0432\u0430 \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 (\u043a\u043e\u0434: 200)\n\ud83c\udf0d IP \u0441\u0435\u0440\u0432\u0435\u0440\u0430: 185.105.225.6\n\ud83d\ude80 \u041c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433 \u0437\u0430\u043f\u0443\u0449\u0435\u043d \u0441: 52.234.38.28","entities":[{"offset":2,"length":14,"type":"bold"},{"offset":25,"length":10,"type":"text_link","url":"https://hrobots.ru/"},{"offset":65,"length":11,"type":"bold"},{"offset":77,"length":13,"type":"code"},{"offset":94,"length":21,"type":"bold"},{"offset":116,"length":12,"type":"code"}],"link_preview_options":{"is_disabled":true}}}
 Sun Apr 13 08:28:32 UTC 2025 - ✅ Сайт hrobots.ru доступен (код: 200)
 Sun Apr 13 08:28:32 UTC 2025 - ✅ Проверка завершена.
+>>>>>>> Stashed changes
+=======
+=== Debug Info ===
+Script started at: Sun Apr 13 08:28:41 UTC 2025
+Working directory: /home/runner/work/website-checker/website-checker
+TELEGRAM_BOT_TOKEN present: Yes
+CHAT_ID present: Yes
+SITES present: Yes
+=================
+Sun Apr 13 08:28:41 UTC 2025 - 🔄 Запуск проверки сайтов... (Сервер IP GitHub Actions: 20.42.48.115)
+Sun Apr 13 08:28:41 UTC 2025 - 🔍 Проверка сайта: https://huter-gmbh.ru
+Sun Apr 13 08:28:42 UTC 2025 - Код ответа от https://huter-gmbh.ru (185.105.225.6): 200
+Sun Apr 13 08:28:42 UTC 2025 - ✅ Сайт huter-gmbh.ru восстановился! Отправляем уведомление...
+Sun Apr 13 08:28:43 UTC 2025 - 📤 Ответ от Telegram API: {"ok":true,"result":{"message_id":200,"sender_chat":{"id":-1002312916406,"title":"(iMetro) Site Monitor","type":"channel"},"chat":{"id":-1002312916406,"title":"(iMetro) Site Monitor","type":"channel"},"date":1744532923,"text":"\u2705 \u0412\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u043e!\n\ud83c\udf89 \u0421\u0430\u0439\u0442 huter-gmbh.ru \u0441\u043d\u043e\u0432\u0430 \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 (\u043a\u043e\u0434: 200)\n\ud83c\udf0d IP \u0441\u0435\u0440\u0432\u0435\u0440\u0430: 185.105.225.6\n\ud83d\ude80 \u041c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433 \u0437\u0430\u043f\u0443\u0449\u0435\u043d \u0441: 20.42.48.115","entities":[{"offset":2,"length":14,"type":"bold"},{"offset":25,"length":13,"type":"text_link","url":"https://huter-gmbh.ru/"},{"offset":68,"length":11,"type":"bold"},{"offset":80,"length":13,"type":"code"},{"offset":97,"length":21,"type":"bold"},{"offset":119,"length":12,"type":"code"}],"link_preview_options":{"is_disabled":true}}}
+Sun Apr 13 08:28:43 UTC 2025 - ✅ Сайт huter-gmbh.ru доступен (код: 200)
+Sun Apr 13 08:28:43 UTC 2025 - 🔍 Проверка сайта: https://ecoflow-russia.com
+Sun Apr 13 08:28:44 UTC 2025 - Код ответа от https://ecoflow-russia.com (185.105.225.6): 200
+Sun Apr 13 08:28:44 UTC 2025 - ✅ Сайт ecoflow-russia.com восстановился! Отправляем уведомление...
+Sun Apr 13 08:28:44 UTC 2025 - 📤 Ответ от Telegram API: {"ok":true,"result":{"message_id":201,"sender_chat":{"id":-1002312916406,"title":"(iMetro) Site Monitor","type":"channel"},"chat":{"id":-1002312916406,"title":"(iMetro) Site Monitor","type":"channel"},"date":1744532924,"text":"\u2705 \u0412\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u043e!\n\ud83c\udf89 \u0421\u0430\u0439\u0442 ecoflow-russia.com \u0441\u043d\u043e\u0432\u0430 \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 (\u043a\u043e\u0434: 200)\n\ud83c\udf0d IP \u0441\u0435\u0440\u0432\u0435\u0440\u0430: 185.105.225.6\n\ud83d\ude80 \u041c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433 \u0437\u0430\u043f\u0443\u0449\u0435\u043d \u0441: 20.42.48.115","entities":[{"offset":2,"length":14,"type":"bold"},{"offset":25,"length":18,"type":"text_link","url":"https://ecoflow-russia.com/"},{"offset":73,"length":11,"type":"bold"},{"offset":85,"length":13,"type":"code"},{"offset":102,"length":21,"type":"bold"},{"offset":124,"length":12,"type":"code"}],"link_preview_options":{"is_disabled":true}}}
+Sun Apr 13 08:28:44 UTC 2025 - ✅ Сайт ecoflow-russia.com доступен (код: 200)
+Sun Apr 13 08:28:44 UTC 2025 - 🔍 Проверка сайта: https://stels-rf.ru
+Sun Apr 13 08:28:46 UTC 2025 - Код ответа от https://stels-rf.ru (172.67.194.35): 302
+Sun Apr 13 08:28:46 UTC 2025 - ✅ Сайт stels-rf.ru восстановился! Отправляем уведомление...
+Sun Apr 13 08:28:46 UTC 2025 - 📤 Ответ от Telegram API: {"ok":true,"result":{"message_id":202,"sender_chat":{"id":-1002312916406,"title":"(iMetro) Site Monitor","type":"channel"},"chat":{"id":-1002312916406,"title":"(iMetro) Site Monitor","type":"channel"},"date":1744532926,"text":"\u2705 \u0412\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u043e!\n\ud83c\udf89 \u0421\u0430\u0439\u0442 stels-rf.ru \u0441\u043d\u043e\u0432\u0430 \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 (\u043a\u043e\u0434: 302)\n\ud83c\udf0d IP \u0441\u0435\u0440\u0432\u0435\u0440\u0430: 172.67.194.35\n\ud83d\ude80 \u041c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433 \u0437\u0430\u043f\u0443\u0449\u0435\u043d \u0441: 20.42.48.115","entities":[{"offset":2,"length":14,"type":"bold"},{"offset":25,"length":11,"type":"text_link","url":"https://stels-rf.ru/"},{"offset":66,"length":11,"type":"bold"},{"offset":78,"length":13,"type":"code"},{"offset":95,"length":21,"type":"bold"},{"offset":117,"length":12,"type":"code"}],"link_preview_options":{"is_disabled":true}}}
+Sun Apr 13 08:28:46 UTC 2025 - ✅ Сайт stels-rf.ru доступен (код: 302)
+Sun Apr 13 08:28:46 UTC 2025 - 🔍 Проверка сайта: https://resanta24.ru
+Sun Apr 13 08:28:48 UTC 2025 - Код ответа от https://resanta24.ru (185.105.225.6): 200
+Sun Apr 13 08:28:48 UTC 2025 - ✅ Сайт resanta24.ru доступен (код: 200)
+Sun Apr 13 08:28:48 UTC 2025 - 🔍 Проверка сайта: https://hrobots.ru
+Sun Apr 13 08:28:49 UTC 2025 - Код ответа от https://hrobots.ru (185.105.225.6): 200
+Sun Apr 13 08:28:49 UTC 2025 - ✅ Сайт hrobots.ru восстановился! Отправляем уведомление...
+Sun Apr 13 08:28:49 UTC 2025 - 📤 Ответ от Telegram API: {"ok":true,"result":{"message_id":203,"sender_chat":{"id":-1002312916406,"title":"(iMetro) Site Monitor","type":"channel"},"chat":{"id":-1002312916406,"title":"(iMetro) Site Monitor","type":"channel"},"date":1744532929,"text":"\u2705 \u0412\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u043e!\n\ud83c\udf89 \u0421\u0430\u0439\u0442 hrobots.ru \u0441\u043d\u043e\u0432\u0430 \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 (\u043a\u043e\u0434: 200)\n\ud83c\udf0d IP \u0441\u0435\u0440\u0432\u0435\u0440\u0430: 185.105.225.6\n\ud83d\ude80 \u041c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433 \u0437\u0430\u043f\u0443\u0449\u0435\u043d \u0441: 20.42.48.115","entities":[{"offset":2,"length":14,"type":"bold"},{"offset":25,"length":10,"type":"text_link","url":"https://hrobots.ru/"},{"offset":65,"length":11,"type":"bold"},{"offset":77,"length":13,"type":"code"},{"offset":94,"length":21,"type":"bold"},{"offset":116,"length":12,"type":"code"}],"link_preview_options":{"is_disabled":true}}}
+Sun Apr 13 08:28:49 UTC 2025 - ✅ Сайт hrobots.ru доступен (код: 200)
+Sun Apr 13 08:28:49 UTC 2025 - ✅ Проверка завершена.
 >>>>>>> Stashed changes
