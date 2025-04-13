@@ -917,12 +917,10 @@
 >>>>>>> Stashed changes
 <<<<<<< Updated upstream
 huter-gmbh.ru DOWN
-ecoflow-russia.com DOWN
 <<<<<<< Updated upstream
-stels-rf.ru DOWN
 =======
-stels-rf.ru UP
 >>>>>>> Stashed changes
+<<<<<<< Updated upstream
 resanta24.ru UP
 =======
 huter-gmbh.ru UP
@@ -931,3 +929,9 @@ stels-rf.ru UP
 resanta24.ru DOWN
 >>>>>>> Stashed changes
 hrobots.ru UP
+=======
+ecoflow-russia.com UP
+stels-rf.ru DOWN
+resanta24.ru DOWN
+hrobots.ru DOWN
+>>>>>>> Stashed changes
