@@ -1,5 +1,6 @@
 alteco-ltd.ru DOWN
 omoikiri-ltd.ru DOWN
+<<<<<<< Updated upstream
 huter-gmbh.ru UP
 ecoflow-russia.com DOWN
 stels-rf.ru DOWN
@@ -7,3 +8,12 @@ resanta24.ru DOWN
 hrobots.ru DOWN
 energy-ltd.ru DOWN
 irobot-ltd.ru DOWN
+=======
+huter-gmbh.ru DOWN
+ecoflow-russia.com DOWN
+stels-rf.ru DOWN
+resanta24.ru DOWN
+hrobots.ru UP
+energy-ltd.ru UP
+irobot-ltd.ru UP
+>>>>>>> Stashed changes
