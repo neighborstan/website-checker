@@ -1,38 +1,3 @@
-Wed Nov 19 23:42:34 UTC 2025 - ✅ Сайт resanta24.ru доступен (код: 200)
-Wed Nov 19 23:42:34 UTC 2025 - 🔍 Проверка сайта: https://hrobots.ru
-Wed Nov 19 23:42:35 UTC 2025 - Код ответа от https://hrobots.ru (185.105.225.6): 200
-Wed Nov 19 23:42:35 UTC 2025 - ✅ Сайт hrobots.ru доступен (код: 200)
-Wed Nov 19 23:42:35 UTC 2025 - 🔍 Проверка сайта: https://alteco-ltd.ru
-Wed Nov 19 23:42:38 UTC 2025 - Код ответа от https://alteco-ltd.ru (5.188.29.200): 200
-Wed Nov 19 23:42:38 UTC 2025 - ✅ Сайт alteco-ltd.ru доступен (код: 200)
-Wed Nov 19 23:42:38 UTC 2025 - 🔍 Проверка сайта: https://energy-ltd.ru
-Wed Nov 19 23:42:40 UTC 2025 - Код ответа от https://energy-ltd.ru (5.188.29.200): 200
-Wed Nov 19 23:42:40 UTC 2025 - ✅ Сайт energy-ltd.ru доступен (код: 200)
-Wed Nov 19 23:42:40 UTC 2025 - 🔍 Проверка сайта: https://omoikiri-ltd.ru
-Wed Nov 19 23:42:41 UTC 2025 - Код ответа от https://omoikiri-ltd.ru (5.188.29.200): 503
-Wed Nov 19 23:42:41 UTC 2025 - 🔍 Проверка сайта: https://irobot-ltd.ru
-Wed Nov 19 23:42:43 UTC 2025 - Код ответа от https://irobot-ltd.ru (5.188.29.200): 200
-Wed Nov 19 23:42:43 UTC 2025 - ✅ Сайт irobot-ltd.ru доступен (код: 200)
-Wed Nov 19 23:42:43 UTC 2025 - ✅ Проверка завершена.
-=== Debug Info ===
-Script started at: Thu Nov 20 00:42:27 UTC 2025
-Working directory: /home/runner/work/website-checker/website-checker
-TELEGRAM_BOT_TOKEN present: Yes
-CHAT_ID present: Yes
-SITES present: Yes
-=================
-Thu Nov 20 00:42:27 UTC 2025 - 🔄 Запуск проверки сайтов... (Сервер IP GitHub Actions: 57.151.138.145)
-Thu Nov 20 00:42:27 UTC 2025 - 🔍 Проверка сайта: https://huter-gmbh.ru
-Thu Nov 20 00:42:28 UTC 2025 - Код ответа от https://huter-gmbh.ru (185.105.225.6): 000
-Thu Nov 20 00:42:28 UTC 2025 - ❌ Сайт huter-gmbh.ru упал! Отправляем уведомление...
-Thu Nov 20 00:42:29 UTC 2025 - 📤 Ответ от Telegram API: {"ok":true,"result":{"message_id":551,"sender_chat":{"id":-1002312916406,"title":"(iMetro) Site Monitor","type":"channel"},"chat":{"id":-1002312916406,"title":"(iMetro) Site Monitor","type":"channel"},"date":1763599349,"text":"\u26a0\ufe0f \u0412\u043d\u0438\u043c\u0430\u043d\u0438\u0435!\n\u274c \u0421\u0430\u0439\u0442 huter-gmbh.ru \u043d\u0435\u0434\u043e\u0441\u0442\u0443\u043f\u0435\u043d (\u043a\u043e\u0434: 000)\n\ud83c\udf0d IP \u0441\u0435\u0440\u0432\u0435\u0440\u0430: 185.105.225.6\n\ud83d\ude80 \u041c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433 \u0437\u0430\u043f\u0443\u0449\u0435\u043d \u0441: 57.151.138.145","entities":[{"offset":3,"length":9,"type":"bold"},{"offset":20,"length":13,"type":"text_link","url":"https://huter-gmbh.ru/"},{"offset":59,"length":11,"type":"bold"},{"offset":71,"length":13,"type":"code"},{"offset":88,"length":21,"type":"bold"},{"offset":110,"length":14,"type":"code"}],"link_preview_options":{"is_disabled":true}}}
-Thu Nov 20 00:42:29 UTC 2025 - 🔍 Проверка сайта: https://ecoflow-russia.com
-Thu Nov 20 00:42:30 UTC 2025 - Код ответа от https://ecoflow-russia.com (185.105.225.6): 000
-Thu Nov 20 00:42:30 UTC 2025 - ❌ Сайт ecoflow-russia.com упал! Отправляем уведомление...
-Thu Nov 20 00:42:30 UTC 2025 - 📤 Ответ от Telegram API: {"ok":true,"result":{"message_id":552,"sender_chat":{"id":-1002312916406,"title":"(iMetro) Site Monitor","type":"channel"},"chat":{"id":-1002312916406,"title":"(iMetro) Site Monitor","type":"channel"},"date":1763599350,"text":"\u26a0\ufe0f \u0412\u043d\u0438\u043c\u0430\u043d\u0438\u0435!\n\u274c \u0421\u0430\u0439\u0442 ecoflow-russia.com \u043d\u0435\u0434\u043e\u0441\u0442\u0443\u043f\u0435\u043d (\u043a\u043e\u0434: 000)\n\ud83c\udf0d IP \u0441\u0435\u0440\u0432\u0435\u0440\u0430: 185.105.225.6\n\ud83d\ude80 \u041c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433 \u0437\u0430\u043f\u0443\u0449\u0435\u043d \u0441: 57.151.138.145","entities":[{"offset":3,"length":9,"type":"bold"},{"offset":20,"length":18,"type":"text_link","url":"https://ecoflow-russia.com/"},{"offset":64,"length":11,"type":"bold"},{"offset":76,"length":13,"type":"code"},{"offset":93,"length":21,"type":"bold"},{"offset":115,"length":14,"type":"code"}],"link_preview_options":{"is_disabled":true}}}
-Thu Nov 20 00:42:30 UTC 2025 - 🔍 Проверка сайта: https://stels-rf.ru
-Thu Nov 20 00:42:31 UTC 2025 - Код ответа от https://stels-rf.ru (185.105.225.6): 000
-Thu Nov 20 00:42:31 UTC 2025 - ❌ Сайт stels-rf.ru упал! Отправляем уведомление...
 Thu Nov 20 00:42:31 UTC 2025 - 📤 Ответ от Telegram API: {"ok":true,"result":{"message_id":553,"sender_chat":{"id":-1002312916406,"title":"(iMetro) Site Monitor","type":"channel"},"chat":{"id":-1002312916406,"title":"(iMetro) Site Monitor","type":"channel"},"date":1763599351,"text":"\u26a0\ufe0f \u0412\u043d\u0438\u043c\u0430\u043d\u0438\u0435!\n\u274c \u0421\u0430\u0439\u0442 stels-rf.ru \u043d\u0435\u0434\u043e\u0441\u0442\u0443\u043f\u0435\u043d (\u043a\u043e\u0434: 000)\n\ud83c\udf0d IP \u0441\u0435\u0440\u0432\u0435\u0440\u0430: 185.105.225.6\n\ud83d\ude80 \u041c\u043e\u043d\u0438\u0442\u043e\u0440\u0438\u043d\u0433 \u0437\u0430\u043f\u0443\u0449\u0435\u043d \u0441: 57.151.138.145","entities":[{"offset":3,"length":9,"type":"bold"},{"offset":20,"length":11,"type":"text_link","url":"https://stels-rf.ru/"},{"offset":57,"length":11,"type":"bold"},{"offset":69,"length":13,"type":"code"},{"offset":86,"length":21,"type":"bold"},{"offset":108,"length":14,"type":"code"}],"link_preview_options":{"is_disabled":true}}}
 Thu Nov 20 00:42:31 UTC 2025 - 🔍 Проверка сайта: https://resanta24.ru
 Thu Nov 20 00:42:33 UTC 2025 - Код ответа от https://resanta24.ru (185.105.225.6): 000
@@ -99,3 +64,38 @@ Thu Nov 20 01:42:42 UTC 2025 - 🔍 Проверка сайта: https://irobot-
 Thu Nov 20 01:42:44 UTC 2025 - Код ответа от https://irobot-ltd.ru (5.188.29.200): 200
 Thu Nov 20 01:42:44 UTC 2025 - ✅ Сайт irobot-ltd.ru доступен (код: 200)
 Thu Nov 20 01:42:44 UTC 2025 - ✅ Проверка завершена.
+=== Debug Info ===
+Script started at: Thu Nov 20 02:42:28 UTC 2025
+Working directory: /home/runner/work/website-checker/website-checker
+TELEGRAM_BOT_TOKEN present: Yes
+CHAT_ID present: Yes
+SITES present: Yes
+=================
+Thu Nov 20 02:42:28 UTC 2025 - 🔄 Запуск проверки сайтов... (Сервер IP GitHub Actions: 64.236.177.112)
+Thu Nov 20 02:42:28 UTC 2025 - 🔍 Проверка сайта: https://huter-gmbh.ru
+Thu Nov 20 02:42:30 UTC 2025 - Код ответа от https://huter-gmbh.ru (185.105.225.6): 200
+Thu Nov 20 02:42:30 UTC 2025 - ✅ Сайт huter-gmbh.ru доступен (код: 200)
+Thu Nov 20 02:42:30 UTC 2025 - 🔍 Проверка сайта: https://ecoflow-russia.com
+Thu Nov 20 02:42:31 UTC 2025 - Код ответа от https://ecoflow-russia.com (185.105.225.6): 200
+Thu Nov 20 02:42:31 UTC 2025 - ✅ Сайт ecoflow-russia.com доступен (код: 200)
+Thu Nov 20 02:42:31 UTC 2025 - 🔍 Проверка сайта: https://stels-rf.ru
+Thu Nov 20 02:42:32 UTC 2025 - Код ответа от https://stels-rf.ru (185.105.225.6): 200
+Thu Nov 20 02:42:32 UTC 2025 - ✅ Сайт stels-rf.ru доступен (код: 200)
+Thu Nov 20 02:42:32 UTC 2025 - 🔍 Проверка сайта: https://resanta24.ru
+Thu Nov 20 02:42:34 UTC 2025 - Код ответа от https://resanta24.ru (185.105.225.6): 200
+Thu Nov 20 02:42:34 UTC 2025 - ✅ Сайт resanta24.ru доступен (код: 200)
+Thu Nov 20 02:42:34 UTC 2025 - 🔍 Проверка сайта: https://hrobots.ru
+Thu Nov 20 02:42:35 UTC 2025 - Код ответа от https://hrobots.ru (185.105.225.6): 200
+Thu Nov 20 02:42:35 UTC 2025 - ✅ Сайт hrobots.ru доступен (код: 200)
+Thu Nov 20 02:42:35 UTC 2025 - 🔍 Проверка сайта: https://alteco-ltd.ru
+Thu Nov 20 02:42:37 UTC 2025 - Код ответа от https://alteco-ltd.ru (5.188.29.200): 200
+Thu Nov 20 02:42:37 UTC 2025 - ✅ Сайт alteco-ltd.ru доступен (код: 200)
+Thu Nov 20 02:42:37 UTC 2025 - 🔍 Проверка сайта: https://energy-ltd.ru
+Thu Nov 20 02:42:38 UTC 2025 - Код ответа от https://energy-ltd.ru (5.188.29.200): 200
+Thu Nov 20 02:42:38 UTC 2025 - ✅ Сайт energy-ltd.ru доступен (код: 200)
+Thu Nov 20 02:42:38 UTC 2025 - 🔍 Проверка сайта: https://omoikiri-ltd.ru
+Thu Nov 20 02:42:39 UTC 2025 - Код ответа от https://omoikiri-ltd.ru (5.188.29.200): 503
+Thu Nov 20 02:42:39 UTC 2025 - 🔍 Проверка сайта: https://irobot-ltd.ru
+Thu Nov 20 02:42:41 UTC 2025 - Код ответа от https://irobot-ltd.ru (5.188.29.200): 200
+Thu Nov 20 02:42:41 UTC 2025 - ✅ Сайт irobot-ltd.ru доступен (код: 200)
+Thu Nov 20 02:42:41 UTC 2025 - ✅ Проверка завершена.
