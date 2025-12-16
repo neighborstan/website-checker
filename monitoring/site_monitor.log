@@ -1,41 +1,6 @@
 CHAT_ID present: Yes
 SITES present: Yes
 =================
-Tue Dec 16 19:42:26 UTC 2025 - 🔄 Запуск проверки сайтов... (Сервер IP GitHub Actions: 52.159.245.176)
-Tue Dec 16 19:42:26 UTC 2025 - 🔍 Проверка сайта: https://huter-gmbh.ru
-Tue Dec 16 19:42:28 UTC 2025 - Код ответа от https://huter-gmbh.ru (185.105.225.6): 200
-Tue Dec 16 19:42:28 UTC 2025 - ✅ Сайт huter-gmbh.ru доступен (код: 200)
-Tue Dec 16 19:42:28 UTC 2025 - 🔍 Проверка сайта: https://ecoflow-russia.com
-Tue Dec 16 19:42:30 UTC 2025 - Код ответа от https://ecoflow-russia.com (185.105.225.6): 200
-Tue Dec 16 19:42:30 UTC 2025 - ✅ Сайт ecoflow-russia.com доступен (код: 200)
-Tue Dec 16 19:42:30 UTC 2025 - 🔍 Проверка сайта: https://stels-rf.ru
-Tue Dec 16 19:42:32 UTC 2025 - Код ответа от https://stels-rf.ru (185.105.225.6): 200
-Tue Dec 16 19:42:32 UTC 2025 - ✅ Сайт stels-rf.ru доступен (код: 200)
-Tue Dec 16 19:42:32 UTC 2025 - 🔍 Проверка сайта: https://resanta24.ru
-Tue Dec 16 19:42:33 UTC 2025 - Код ответа от https://resanta24.ru (185.105.225.6): 200
-Tue Dec 16 19:42:33 UTC 2025 - ✅ Сайт resanta24.ru доступен (код: 200)
-Tue Dec 16 19:42:33 UTC 2025 - 🔍 Проверка сайта: https://hrobots.ru
-Tue Dec 16 19:42:35 UTC 2025 - Код ответа от https://hrobots.ru (185.105.225.6): 200
-Tue Dec 16 19:42:35 UTC 2025 - ✅ Сайт hrobots.ru доступен (код: 200)
-Tue Dec 16 19:42:35 UTC 2025 - 🔍 Проверка сайта: https://alteco-ltd.ru
-Tue Dec 16 19:42:37 UTC 2025 - Код ответа от https://alteco-ltd.ru (5.188.29.200): 200
-Tue Dec 16 19:42:37 UTC 2025 - ✅ Сайт alteco-ltd.ru доступен (код: 200)
-Tue Dec 16 19:42:37 UTC 2025 - 🔍 Проверка сайта: https://energy-ltd.ru
-Tue Dec 16 19:42:39 UTC 2025 - Код ответа от https://energy-ltd.ru (5.188.29.200): 200
-Tue Dec 16 19:42:39 UTC 2025 - ✅ Сайт energy-ltd.ru доступен (код: 200)
-Tue Dec 16 19:42:39 UTC 2025 - 🔍 Проверка сайта: https://omoikiri-ltd.ru
-Tue Dec 16 19:42:40 UTC 2025 - Код ответа от https://omoikiri-ltd.ru (5.188.29.200): 503
-Tue Dec 16 19:42:40 UTC 2025 - 🔍 Проверка сайта: https://irobot-ltd.ru
-Tue Dec 16 19:42:42 UTC 2025 - Код ответа от https://irobot-ltd.ru (5.188.29.200): 200
-Tue Dec 16 19:42:42 UTC 2025 - ✅ Сайт irobot-ltd.ru доступен (код: 200)
-Tue Dec 16 19:42:42 UTC 2025 - ✅ Проверка завершена.
-=== Debug Info ===
-Script started at: Tue Dec 16 20:42:25 UTC 2025
-Working directory: /home/runner/work/website-checker/website-checker
-TELEGRAM_BOT_TOKEN present: Yes
-CHAT_ID present: Yes
-SITES present: Yes
-=================
 Tue Dec 16 20:42:25 UTC 2025 - 🔄 Запуск проверки сайтов... (Сервер IP GitHub Actions: 64.236.200.90)
 Tue Dec 16 20:42:25 UTC 2025 - 🔍 Проверка сайта: https://huter-gmbh.ru
 Tue Dec 16 20:42:27 UTC 2025 - Код ответа от https://huter-gmbh.ru (185.105.225.6): 200
@@ -99,3 +64,38 @@ Tue Dec 16 21:42:41 UTC 2025 - 🔍 Проверка сайта: https://irobot-
 Tue Dec 16 21:42:43 UTC 2025 - Код ответа от https://irobot-ltd.ru (5.188.29.200): 200
 Tue Dec 16 21:42:43 UTC 2025 - ✅ Сайт irobot-ltd.ru доступен (код: 200)
 Tue Dec 16 21:42:43 UTC 2025 - ✅ Проверка завершена.
+=== Debug Info ===
+Script started at: Tue Dec 16 22:42:26 UTC 2025
+Working directory: /home/runner/work/website-checker/website-checker
+TELEGRAM_BOT_TOKEN present: Yes
+CHAT_ID present: Yes
+SITES present: Yes
+=================
+Tue Dec 16 22:42:26 UTC 2025 - 🔄 Запуск проверки сайтов... (Сервер IP GitHub Actions: 52.234.40.202)
+Tue Dec 16 22:42:26 UTC 2025 - 🔍 Проверка сайта: https://huter-gmbh.ru
+Tue Dec 16 22:42:28 UTC 2025 - Код ответа от https://huter-gmbh.ru (185.105.225.6): 200
+Tue Dec 16 22:42:28 UTC 2025 - ✅ Сайт huter-gmbh.ru доступен (код: 200)
+Tue Dec 16 22:42:28 UTC 2025 - 🔍 Проверка сайта: https://ecoflow-russia.com
+Tue Dec 16 22:42:30 UTC 2025 - Код ответа от https://ecoflow-russia.com (185.105.225.6): 200
+Tue Dec 16 22:42:30 UTC 2025 - ✅ Сайт ecoflow-russia.com доступен (код: 200)
+Tue Dec 16 22:42:30 UTC 2025 - 🔍 Проверка сайта: https://stels-rf.ru
+Tue Dec 16 22:42:32 UTC 2025 - Код ответа от https://stels-rf.ru (185.105.225.6): 200
+Tue Dec 16 22:42:32 UTC 2025 - ✅ Сайт stels-rf.ru доступен (код: 200)
+Tue Dec 16 22:42:32 UTC 2025 - 🔍 Проверка сайта: https://resanta24.ru
+Tue Dec 16 22:42:34 UTC 2025 - Код ответа от https://resanta24.ru (185.105.225.6): 200
+Tue Dec 16 22:42:34 UTC 2025 - ✅ Сайт resanta24.ru доступен (код: 200)
+Tue Dec 16 22:42:34 UTC 2025 - 🔍 Проверка сайта: https://hrobots.ru
+Tue Dec 16 22:42:35 UTC 2025 - Код ответа от https://hrobots.ru (185.105.225.6): 200
+Tue Dec 16 22:42:35 UTC 2025 - ✅ Сайт hrobots.ru доступен (код: 200)
+Tue Dec 16 22:42:35 UTC 2025 - 🔍 Проверка сайта: https://alteco-ltd.ru
+Tue Dec 16 22:42:37 UTC 2025 - Код ответа от https://alteco-ltd.ru (5.188.29.200): 200
+Tue Dec 16 22:42:37 UTC 2025 - ✅ Сайт alteco-ltd.ru доступен (код: 200)
+Tue Dec 16 22:42:37 UTC 2025 - 🔍 Проверка сайта: https://energy-ltd.ru
+Tue Dec 16 22:42:39 UTC 2025 - Код ответа от https://energy-ltd.ru (5.188.29.200): 200
+Tue Dec 16 22:42:39 UTC 2025 - ✅ Сайт energy-ltd.ru доступен (код: 200)
+Tue Dec 16 22:42:39 UTC 2025 - 🔍 Проверка сайта: https://omoikiri-ltd.ru
+Tue Dec 16 22:42:40 UTC 2025 - Код ответа от https://omoikiri-ltd.ru (5.188.29.200): 503
+Tue Dec 16 22:42:40 UTC 2025 - 🔍 Проверка сайта: https://irobot-ltd.ru
+Tue Dec 16 22:42:42 UTC 2025 - Код ответа от https://irobot-ltd.ru (5.188.29.200): 200
+Tue Dec 16 22:42:42 UTC 2025 - ✅ Сайт irobot-ltd.ru доступен (код: 200)
+Tue Dec 16 22:42:42 UTC 2025 - ✅ Проверка завершена.
