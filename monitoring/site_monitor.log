@@ -1,41 +1,6 @@
 CHAT_ID present: Yes
 SITES present: Yes
 =================
-Sat Feb  7 14:42:27 UTC 2026 - 🔄 Запуск проверки сайтов... (Сервер IP GitHub Actions: 57.151.128.192)
-Sat Feb  7 14:42:27 UTC 2026 - 🔍 Проверка сайта: https://huter-gmbh.ru
-Sat Feb  7 14:42:29 UTC 2026 - Код ответа от https://huter-gmbh.ru (185.105.225.6): 200
-Sat Feb  7 14:42:29 UTC 2026 - ✅ Сайт huter-gmbh.ru доступен (код: 200)
-Sat Feb  7 14:42:29 UTC 2026 - 🔍 Проверка сайта: https://ecoflow-russia.com
-Sat Feb  7 14:42:31 UTC 2026 - Код ответа от https://ecoflow-russia.com (185.105.225.6): 200
-Sat Feb  7 14:42:31 UTC 2026 - ✅ Сайт ecoflow-russia.com доступен (код: 200)
-Sat Feb  7 14:42:31 UTC 2026 - 🔍 Проверка сайта: https://stels-rf.ru
-Sat Feb  7 14:42:32 UTC 2026 - Код ответа от https://stels-rf.ru (185.105.225.6): 200
-Sat Feb  7 14:42:32 UTC 2026 - ✅ Сайт stels-rf.ru доступен (код: 200)
-Sat Feb  7 14:42:32 UTC 2026 - 🔍 Проверка сайта: https://resanta24.ru
-Sat Feb  7 14:42:34 UTC 2026 - Код ответа от https://resanta24.ru (185.105.225.6): 200
-Sat Feb  7 14:42:34 UTC 2026 - ✅ Сайт resanta24.ru доступен (код: 200)
-Sat Feb  7 14:42:34 UTC 2026 - 🔍 Проверка сайта: https://hrobots.ru
-Sat Feb  7 14:42:36 UTC 2026 - Код ответа от https://hrobots.ru (185.105.225.6): 200
-Sat Feb  7 14:42:36 UTC 2026 - ✅ Сайт hrobots.ru доступен (код: 200)
-Sat Feb  7 14:42:36 UTC 2026 - 🔍 Проверка сайта: https://alteco-ltd.ru
-Sat Feb  7 14:42:38 UTC 2026 - Код ответа от https://alteco-ltd.ru (5.188.29.200): 200
-Sat Feb  7 14:42:38 UTC 2026 - ✅ Сайт alteco-ltd.ru доступен (код: 200)
-Sat Feb  7 14:42:38 UTC 2026 - 🔍 Проверка сайта: https://energy-ltd.ru
-Sat Feb  7 14:42:39 UTC 2026 - Код ответа от https://energy-ltd.ru (5.188.29.200): 200
-Sat Feb  7 14:42:39 UTC 2026 - ✅ Сайт energy-ltd.ru доступен (код: 200)
-Sat Feb  7 14:42:39 UTC 2026 - 🔍 Проверка сайта: https://omoikiri-ltd.ru
-Sat Feb  7 14:42:40 UTC 2026 - Код ответа от https://omoikiri-ltd.ru (5.188.29.200): 503
-Sat Feb  7 14:42:40 UTC 2026 - 🔍 Проверка сайта: https://irobot-ltd.ru
-Sat Feb  7 14:42:42 UTC 2026 - Код ответа от https://irobot-ltd.ru (5.188.29.200): 200
-Sat Feb  7 14:42:42 UTC 2026 - ✅ Сайт irobot-ltd.ru доступен (код: 200)
-Sat Feb  7 14:42:42 UTC 2026 - ✅ Проверка завершена.
-=== Debug Info ===
-Script started at: Sat Feb  7 15:42:25 UTC 2026
-Working directory: /home/runner/work/website-checker/website-checker
-TELEGRAM_BOT_TOKEN present: Yes
-CHAT_ID present: Yes
-SITES present: Yes
-=================
 Sat Feb  7 15:42:25 UTC 2026 - 🔄 Запуск проверки сайтов... (Сервер IP GitHub Actions: 48.214.55.48)
 Sat Feb  7 15:42:25 UTC 2026 - 🔍 Проверка сайта: https://huter-gmbh.ru
 Sat Feb  7 15:42:26 UTC 2026 - Код ответа от https://huter-gmbh.ru (185.105.225.6): 200
@@ -99,3 +64,38 @@ Sat Feb  7 16:42:35 UTC 2026 - 🔍 Проверка сайта: https://irobot-
 Sat Feb  7 16:42:36 UTC 2026 - Код ответа от https://irobot-ltd.ru (5.188.29.200): 200
 Sat Feb  7 16:42:36 UTC 2026 - ✅ Сайт irobot-ltd.ru доступен (код: 200)
 Sat Feb  7 16:42:36 UTC 2026 - ✅ Проверка завершена.
+=== Debug Info ===
+Script started at: Sat Feb  7 17:42:26 UTC 2026
+Working directory: /home/runner/work/website-checker/website-checker
+TELEGRAM_BOT_TOKEN present: Yes
+CHAT_ID present: Yes
+SITES present: Yes
+=================
+Sat Feb  7 17:42:26 UTC 2026 - 🔄 Запуск проверки сайтов... (Сервер IP GitHub Actions: 20.98.23.163)
+Sat Feb  7 17:42:26 UTC 2026 - 🔍 Проверка сайта: https://huter-gmbh.ru
+Sat Feb  7 17:42:28 UTC 2026 - Код ответа от https://huter-gmbh.ru (185.105.225.6): 200
+Sat Feb  7 17:42:28 UTC 2026 - ✅ Сайт huter-gmbh.ru доступен (код: 200)
+Sat Feb  7 17:42:28 UTC 2026 - 🔍 Проверка сайта: https://ecoflow-russia.com
+Sat Feb  7 17:42:30 UTC 2026 - Код ответа от https://ecoflow-russia.com (185.105.225.6): 200
+Sat Feb  7 17:42:30 UTC 2026 - ✅ Сайт ecoflow-russia.com доступен (код: 200)
+Sat Feb  7 17:42:30 UTC 2026 - 🔍 Проверка сайта: https://stels-rf.ru
+Sat Feb  7 17:42:31 UTC 2026 - Код ответа от https://stels-rf.ru (185.105.225.6): 200
+Sat Feb  7 17:42:31 UTC 2026 - ✅ Сайт stels-rf.ru доступен (код: 200)
+Sat Feb  7 17:42:31 UTC 2026 - 🔍 Проверка сайта: https://resanta24.ru
+Sat Feb  7 17:42:32 UTC 2026 - Код ответа от https://resanta24.ru (185.105.225.6): 200
+Sat Feb  7 17:42:32 UTC 2026 - ✅ Сайт resanta24.ru доступен (код: 200)
+Sat Feb  7 17:42:32 UTC 2026 - 🔍 Проверка сайта: https://hrobots.ru
+Sat Feb  7 17:42:33 UTC 2026 - Код ответа от https://hrobots.ru (185.105.225.6): 200
+Sat Feb  7 17:42:33 UTC 2026 - ✅ Сайт hrobots.ru доступен (код: 200)
+Sat Feb  7 17:42:33 UTC 2026 - 🔍 Проверка сайта: https://alteco-ltd.ru
+Sat Feb  7 17:42:35 UTC 2026 - Код ответа от https://alteco-ltd.ru (5.188.29.200): 200
+Sat Feb  7 17:42:35 UTC 2026 - ✅ Сайт alteco-ltd.ru доступен (код: 200)
+Sat Feb  7 17:42:35 UTC 2026 - 🔍 Проверка сайта: https://energy-ltd.ru
+Sat Feb  7 17:42:36 UTC 2026 - Код ответа от https://energy-ltd.ru (5.188.29.200): 200
+Sat Feb  7 17:42:36 UTC 2026 - ✅ Сайт energy-ltd.ru доступен (код: 200)
+Sat Feb  7 17:42:36 UTC 2026 - 🔍 Проверка сайта: https://omoikiri-ltd.ru
+Sat Feb  7 17:42:37 UTC 2026 - Код ответа от https://omoikiri-ltd.ru (5.188.29.200): 503
+Sat Feb  7 17:42:37 UTC 2026 - 🔍 Проверка сайта: https://irobot-ltd.ru
+Sat Feb  7 17:42:38 UTC 2026 - Код ответа от https://irobot-ltd.ru (5.188.29.200): 200
+Sat Feb  7 17:42:38 UTC 2026 - ✅ Сайт irobot-ltd.ru доступен (код: 200)
+Sat Feb  7 17:42:38 UTC 2026 - ✅ Проверка завершена.
